@@ -1,0 +1,43 @@
+{
+  "name": "Family Safety - Real-time Location & Safety App",
+  "short_name": "Family Safety",
+  "description": "Real-time location sharing, geofencing, and SOS alerts for family and group safety",
+  "theme_color": "#1e40af",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "utilities", "navigation"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Live Map",
+      "short_name": "Map",
+      "description": "View live locations of group members",
+      "url": "/map",
+      "icons": [{ "src": "/map-icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Trigger SOS",
+      "short_name": "SOS",
+      "description": "Send emergency alert to group",
+      "url": "/sos",
+      "icons": [{ "src": "/sos-icon.png", "sizes": "192x192" }]
+    }
+  ]
+}
